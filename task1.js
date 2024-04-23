@@ -10,7 +10,7 @@ function bubbleSort(numArray){
     for(var j = 0; j+1 < 10-i; j++){
        if(numArray[j]>numArray[j+1]){
         temp=numArray[j];
-        numArray[j]=numArray[j+1];5
+        numArray[j]=numArray[j+1];
         numArray[j+1]=temp;
        }
     }
