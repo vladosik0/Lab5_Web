@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <style>
+        .buttonClass {
+            border: 2px solid black;
+            font-size: 15px;
+            display: inline;
+            margin-right: 20px;
+            padding: 8px;
+        }
+        .colorInput{
+            display: inline;
+            font-size: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Варіант - 4. Текстовий редактор</h1>
+    <h2>Опис завдання</h2>
+    <p>Реалізувати редактор, який би дозволяв виконувати
+        форматування тексту, який уводиться. Обов‘язкові
+        елементи форматування: напівжирність, нахил,
+        підкреслювання, колір тексту, регістр символів.
+        Елементи форматування мають бути доступними
+        через відповідні кнопки, форматований текст – у
+        окремому вікні на сторінці.</p>
+    <div style="width:max-content">
+        <ul>
+            <li class="buttonClass" style="font-weight: 600;">Напівжирний</li>
+            <li class="buttonClass" style="font-style: italic;">Курсив</li>
+            <li class="buttonClass" style="text-decoration:underline">Підкреслювання</li>
+            <li class="colorInput" style="margin-right: 20px;">
+                <ul style="display: inline;border:2px solid black; padding: 8px;"> 
+                <li class="colorInput">Колір тексту</li>
+                <li class="colorInput"><input type = "color"/></li>
+                </ul>
+            </li>
+            <li class="buttonClass">Регістр символів</li>
+        </ul>
+        <textarea style="width:1085px;height:500px;margin-left: 38px;font-size: 20px;"></textarea>
+    </div>
+    <script src="task2.js"></script>
+</body>
+</html>
